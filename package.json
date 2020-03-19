@@ -1,0 +1,15 @@
+{
+  "name": "export-gitlab-issues",
+  "version": "1.0.0",
+  "description": "Export Gitlab Issues To csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simphiwe hlabisa",
+  "license": "ISC",
+  "devDependencies": {
+    "export-to-csv": "^0.2.1",
+    "rss-parser": "^3.7.5"
+  }
+}
