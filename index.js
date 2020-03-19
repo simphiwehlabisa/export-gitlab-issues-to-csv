@@ -7,7 +7,7 @@ const fs = require("fs");
 // 2. Get the link from "Subscribe to RSS feed" in the issue list
 //   A `feed_token` will be present in the link, I removed mine
 // 3. Add `page` parameter, paste URL below (I remove my token for security):
-const ISSUES_FEED_URL = `https://gitlab.com/dotcomhq/medical-directory-mobile-app/-/issues.atom?feed_token=hRCWpNxvcC1Ynep1Zyjm&state=opened`;
+// 4. Open termina and run npm index.js
 const MAX_PAGE = 150; // Increase to get more issues
 const CSV_FILENAME = "data/issues-list.csv";
 
